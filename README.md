@@ -6,7 +6,8 @@ A cool Stock Market Portfolio app that let's you save stock ticker symbols to th
 <pre>
 <code>
 virtualenv venv
-source venv/bin/activate
+source venv/Scripts/activate
+cd stocks
 python manage.py migrate
 python manage.py runserver
 </code>
